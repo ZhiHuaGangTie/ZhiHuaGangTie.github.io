@@ -2,610 +2,401 @@
 <html>
 <head>
 <title>Home</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- Custom Theme files -->
-<script src="js/jquery.min.js"></script>
-<!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<!--//theme-style-->
+<!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<link href='https://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script src="js/responsiveslides.min.js"></script>
+<!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
-					jQuery(document).ready(function($) {
-						$(".scroll").click(function(event){		
-							event.preventDefault();
-							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-						});
-					});
-					</script>
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
 
-<link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <!--header-->
-<div class="header" id="header">
-	<div class="container" >
-		<div class="nav-top">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="navbar-brand logo ">
-					<h1><a href="index.html">Transport </a></h1>
-				</div>
+<!-- header -->
+	<div class="header wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+		<div class="container">
+			<div class="logo">
+				<h1><a href="index.html"><i><img src="images/logo.png" alt="" /></i>铁兄弟<span>专注钢材批发零售</span></a></h1>
 			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil links" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav ">
-						<li ><a href="index.html" class="scroll active" >Home</a><span></span> </li>
-						<li><a href="#about" class="scroll" >About </a><span></span></li>
-						<li><a href="#team" class="scroll" >Team </a><span></span></li>
-						<li ><a href="#services" class="scroll ser" >Services</a><span></span> </li>
-						<li><a href="#gallery" class="scroll ser1">Gallery</a><span></span></li>
-						<li><a href="#clients" class="scroll ser1" >Clients</a><span></span></li>
-						<li><a href="#contact" class="scroll ser1" >Contact</a></li>
-					</ul>
-				<div class="clearfix"></div>
-				</div><!-- /.navbar-collapse -->
+			<div class="header-left">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					</div>
+					
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">						
+						<nav class="link-effect-9" id="link-effect-9">
+							<ul class="nav navbar-nav">
+								<li class="active"><a class="hvr-bounce-to-bottom" href="index.html">主页</a></li>
+								<li><a href="gallery.html" class="hvr-bounce-to-bottom">产品展示</a></li>
+								<li><a href="contact.html" class="hvr-bounce-to-bottom">联系我们</a></li>
+							</ul>
+						</nav>
+					</div>					
+				</nav>
+			</div>
 		</div>
 	</div>
-</div>
-
-<!--banner-->
+<!-- //header -->
+<!-- banner -->
 <div class="banner">
 	<div class="container">
-		<div class="banner-text">
-			<h3>Masagni dolores eoquie </h3>
-			<h2>There are <span>many</span> </h2>
-			<p>There are many variations of passages There are many variations </p>
-			<a href="#about" class="scroll hvr-sweep-to-bottom">About Us</a>
-		</div>	
-	</div>
-</div>
-<!--//banner-->	
-<!--content-->
-<div class="about" id="about">
-	<div class="container">
-		<div class="about-w3l">
-			<h3>About</h3>
-			<div class="about-t">
-				<b></b>
-				<b class="line"></b>
+		<div class="banner-info">
+			<div class="col-md-7 banner-left wow flipInY" data-wow-duration="1.5s" data-wow-delay="0s">
+				<h3><span> 惠州市铁兄弟实业有限公司(原治华钢铁)</span>专注钢材批发零售</h3>	
+				<p> </p>			
+				<a class="hvr-outline-out scroll" href="#about">了解更多</a>
 			</div>
-		</div>
-		<div class="about-head">
-			<div class="col-md-3 ab-head">
-				<h5>It is a long established fact  </h5>
-				<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse sitamnetase adipiscquam eiuse.</p>
-				<ul>
-					<li><i class="glyphicon glyphicon-edit"></i>Masagni dolores eoquie </li>
-					<li><i class="glyphicon glyphicon-edit"></i>Ipsumquia dolor sitamnetase </li>
-				</ul>	
-			</div>
-			<div class="col-md-3 ab-head1">
-				<div class="item item-type-move">
-						<div class=" item-hover" >
-							<div class="item-info">
-								<div class="headline">
-									Transport
-									<div class="line"></div>
-								</div>
-								<div class="date-month">May 20, 2016</div>							
-							</div>
-							<div class="mask"></div>
-						</div>
-						<div class="item-img">
-							<img src="images/aa.jpg" alt=" " class="img-responsive" /> 
-						</div>
+			<div class="col-md-5 banner-right wow flipInY" data-wow-duration="1.5s" data-wow-delay="0s">
+					<div class="ban-icon ban-col1">
+						<img src="images/icon1.png" alt="" />
 					</div>
-
-			</div>
-			<div class="col-md-3 ab-head1">
-					<div class="item item-type-move">
-						<div class=" item-hover" >
-							<div class="item-info">
-								<div class="headline">
-									Transport
-									<div class="line"></div>
-								</div>
-								<p class="date-month">May 20, 2016</p>							
-							</div>
-							<div class="mask"></div>
-						</div>
-						<div class="item-img">
-							<img src="images/aa1.jpg" alt=" " class="img-responsive" /> 
-						</div>
-					</div>	
-			</div>
-			<div class="col-md-3 ab-head ab-head2">
-				<h5>It is a long established fact </h5>
-				<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse sitamnetase adipiscquam eiuse. </p>
-				<ul>
-					<li><i class="glyphicon glyphicon-edit"></i>Masagni dolores eoquie </li>
-					<li><i class="glyphicon glyphicon-edit"></i>Ipsumquia dolor sitamnetase </li>
-				</ul>	
-			</div>
-		<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<div class="team" id="team">
-	<div class="container">
-		<div class="about-w3l w3agile">
-			<h3>Team</h3>
-			<div class="about-t wthree">
-				<b></b>
-				<b class="line"></b>
-			</div>
-			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-		</div>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/te.jpg" class="img-responsive" alt=" ">
-					<div class="captn">						
-						<h4>Victoria</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit .</p>
-						<ul class="captn2">
-							<li><a href="#" ><i></i></a></li>
-							<li><a href="#" ><i class="icon1"></i></a></li>
-							<li><a href="#" ><i class="icon2"></i></a></li>
-						</ul>
+					<div class="ban-icon ban-col2">
+						<img src="images/icon2.png" alt="" />
 					</div>
-			</div>
-		</div>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/te1.jpg" class="img-responsive" alt=" ">
-					<div class="captn">
-						<h4>Adley</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit .</p>
-						<ul class="captn2">
-							<li><a href="#" ><i></i></a></li>
-							<li><a href="#" ><i class="icon1"></i></a></li>
-							<li><a href="#" ><i class="icon2"></i></a></li>
-						</ul>
+					<div class="ban-icon3">
+					<img src="images/icon3.png" alt="" />
 					</div>
-			</div>
-		</div>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/te2.jpg" class="img-responsive" alt=" ">
-					<div class="captn">
-						<h4>Immortal</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit .</p>
-						<ul class="captn2">
-							<li><a href="#" ><i></i></a></li>
-							<li><a href="#" ><i class="icon1"></i></a></li>
-							<li><a href="#" ><i class="icon2"></i></a></li>
-						</ul>
-					</div>
-			</div>
-		</div>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/te3.jpg" class="img-responsive" alt=" ">
-					<div class="captn">
-						<h4>Warlike</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit .</p>
-						<ul class="captn2">
-							<li><a href="#" ><i></i></a></li>
-							<li><a href="#" ><i class="icon1"></i></a></li>
-							<li><a href="#" ><i class="icon2"></i></a></li>
-						</ul>
-					</div>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>	
-<!--content-->
-<div class="service" id="services">
-	<div class="container">
-		<div class="about-w3l">
-			<h3>Services</h3>
-			<div class="about-t">
-				<b></b>
-				<b class="line"></b>
-			</div>
-		</div>
-		<div class="service-head">	
-			<div class="col-md-3 w3ls ">
-				<div class=" ser-grid ">
-					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-leaf hi-icon "> </i>
-					</div>
-					<h3>New Service1</h3>
-				</div>
-			</div>
-			<div class="col-md-3 w3ls ">
-				<div class=" ser-grid ser-grid1 ">
-					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-user hi-icon "> </i>
-					</div>
-					<h3>New Service2</h3>
-				</div>
-			</div>
-			<div class="col-md-3 w3ls">
-				<div class=" ser-grid ser-grid2 ">
-					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-cog hi-icon "> </i>
-					</div>
-					<h3>New Service3</h3>
-				</div>
-			</div>
-			<div class="col-md-3 w3ls ">
-				<div class=" ser-grid ser-grid3 ">
-					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-piggy-bank hi-icon"> </i>
-					</div>
-					<h3>New Service4</h3>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
-<div class="news">
-	<div class="container">
-		<div class="news-top">
-			<div class="col-md-8 news-left">
-				<div class="news-heading">
-					<h3>Cras posuere sem ut neque</h3>
-				</div>
-				<div class="news-bottom">
-					<h4>Excepteur sint occaecat cupidatat non proident</h4>
-					<p>Quisque at tellus ullamcorper, pharetra arcu a, suscipit purus. Nullam feugiat in augue in consequat. Sed ac dictum ligula, et pellentesque velit. In gravida eu felis sit amet molestie. Morbi sed ex ac enim finibus vulputate. Cras arcu magna, auctor ornare neque in, finibus tincidunt augue. </p>
-					<div class="news-one">
-						<div class="news-one-left">
-							<img src="images/ne1.jpg" alt="">
-						</div>
-						<div class="news-one-right">
-							<h4>Morbi sed ex ac enim finibus vulputate. Cras arcu magna, auctor ornare neque in.</h4>
-							<p>Nullam egestas diam eu felis dignissim, vitae posuere ex pretium. Morbi quam purus, rhoncus eget enim sed, laoreet venenatis arcu. Curabitur vestibulum, orci pulvinar pretium cursus, diam ante pretium elit, at finibus nisl ligula vitae enim. eu eleifend enim condimentum ac.</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="news-one">
-						<h4>Nunc molestie venenatis nisi nec pharetra. Morbi nulla odio, commodo a facilisis sed, tristique eget ipsum.</h4>
-						<p>Cras gravida metus vel tortor porttitor pretium. Cras posuere sem ut neque commodo aliquet. Proin in dui tempor, volutpat velit congue, mollis felis. Proin quis ante vitae nunc cursus interdum. Sed nec placerat risus. Sed rhoncus nibh et accumsan placerat. Nunc nec libero a dui cursus mattis placerat a urna.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 news-right">
-				<div class="news-heading">
-					<h3>Nunc molestie</h3>
-				</div>
-				<div class="news-btm">
-					<div class="news-1">
-						<img src="images/ne2.jpg" alt="">
-							<div class="n-1">
-								<h5>Mauris eros felis</h5>
-								<p>Mauris varius consequat tortor vitae</p>
-							</div>
-						</div>
-					<div class="news-1 agileinfo">
-						<img src="images/ne.jpg" alt="">
-							<div class="n-1">
-								<h5>Mauris eros felis</h5>
-								<p>Mauris varius consequat tortor vitae</p>
-							</div>
-					</div>
-				</div>
+				<div class="clearfix"></div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>
-<!--gallery-->
-<div class="gallery" id="gallery">
+<!-- //banner -->
+<!-- banner-bottom -->
+<!-- <div id="about" class="banner-bottom wow bounceInUp" data-wow-duration="1s" data-wow-delay="0s">
 	<div class="container">
-		<div class="about-w3l w3agile">
-			<h3>Gallery</h3>
-			<div class="about-t wthree">
-				<b></b>
-				<b class="line"></b>
-			</div>
-		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-	</div>
-</div>
-	<div class="ga-top">
-   		<div class="col-md-3 gallery-top">
-			<div class="grid-ga">
-			   <a href="images/pa.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-					<img src="images/pa.jpg" alt=""/ >
-						<figcaption >
-							<h4 class="w3-gallery">Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>	
-					</figure>
-					</a>
-				</div>
-				<div class="grid-ga">
-			   <a href="images/pa1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-					<img src="images/pa1.jpg" alt=""/>
-						<figcaption >
-							<h4 class="w3-gallery1">Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>	
-					</figure>
-					</a>
-				</div>
+		<h3>公司简介</h3>
+		<p class="para1">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+		<div class="col-md-4 bottom-grid multi-gd-text">
+			<a href="gallery.html"><img src="images/pic6.jpg" alt=" "/></a>
 		</div>
-		<div class="col-md-3 gallery-top">
-			<div class="grid-ga">
-			   <a href="images/pa2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa2.jpg" alt=""/>
-						<figcaption>
-							<h4>Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>			
-					</figure>
-					</a>
-			</div>
-			<div class="grid-ga">
-				<a href="images/pa3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa3.jpg" alt=""/>
-						<figcaption>
-							<h4>Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>			
-					</figure>
-					</a>
-			</div>
-			<div class="grid-ga">
-			   <a href="images/pa4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa4.jpg" alt=""/>
-						<figcaption>
-							<h4>Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>			
-					</figure>
-					</a>
+		<div class="col-md-4 bottom-grid mar-pad">
+				<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						 // Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+							}
+							});
+						});
+				</script>
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<h4>Exercitationem</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus
+							qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
+							qui blanditiis.</p>
+					</li>
+					<li>
+						<h4>Dignissimos</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus
+							qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
+							qui blanditiis.</p>
+					</li>
+					<li>
+						<h4>Exercitationem</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus
+							qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
+							qui blanditiis.</p>
+					</li>
+					<li>
+						<h4>Dignissimos</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus
+							qui blanditiis vero eos et accusamus et iusto dignissimos ducimus
+							qui blanditiis.</p>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<div class="col-md-3 gallery-top">
-			<div class="grid-ga">
-			   <a href="images/pa5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa5.jpg" alt=""/>
-						<figcaption >
-							<h4 class="w3-gallery1">Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>			
-					</figure>
-					</a>
-			</div>
-			<div class="grid-ga">
-			   <a href="images/pa6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa6.jpg" alt=""/>
-						<figcaption>
-							<h4 class="w3-gallery">Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>			
-					</figure>
-					</a>
-			</div>
-		</div>
-		<div class="col-md-3 gallery-top">
-			<div class="grid-ga">
-			   <a href="images/pa7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa7.jpg" alt=""/>
-						<figcaption >
-							<h4 >Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-	
-						</figcaption>			
-					</figure>
-					</a>
-			</div>
-			<div class="grid-ga">
-			   <a href="images/pa8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa8.jpg" alt=""/>
-						<figcaption >
-							<h4 >Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>			
-					</figure>
-					</a>
-			</div>
-			<div class="grid-ga">
-			   <a href="images/pa9.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-					<figure class="effect-img">
-						<img src="images/pa9.jpg" alt=""/>
-						<figcaption >
-							<h4 >Transport</h4>
-							<p>There are many variations of passages of Lorem Ipsum available.</p>	
-						</figcaption>			
-					</figure>
-					</a>
-			</div>
-		</div>
-		<div class="clearfix"> </div>
-	</div> 
-</div>
-	<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-		<!--light-box-files -->
-		<script type="text/javascript" charset="utf-8">
-		$(function() {
-			$('.grid-ga a').Chocolat();
-		});
-		</script>
-	<!--//gallery-->
-	<link href="css/owl.carousel.css" rel="stylesheet">
-	 <script src="js/owl.carousel.js"></script>
-	 <!-- requried-jsfiles-for owl -->
-							        <script>
-									    $(document).ready(function() {
-									      $("#owl-demo2").owlCarousel({
-									        items : 1,
-									        lazyLoad : false,
-									        autoPlay : true,
-									        navigation : false,
-									        navigationText :  false,
-									        pagination : true,
-									      });
-									    });
-									  </script>
-							 <!-- //requried-jsfiles-for owl -->
-<div class="test" id="clients">
-	<div class="container">
-		<div class="about-w3l">
-			<h3>Clients</h3>
-			<div class="about-t">
-				<b></b>
-				<b class="line"></b>
-			</div>
-		</div>
-		<div class=" test-gr">
-					<div class=" test-gri1">
-					 <div id="owl-demo2" class="owl-carousel">
-							<div class="agile">
-							   	<div class="col-md-6 test-grid">
-							   		<div class="test-grid1">
-										<img src="images/ta.jpg" alt="" class="img-r">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-										Lorem ipsum dolor .</p>
-										<h4>Andery</h4>
-										<span>Ceo</span>
-									</div>	
-								</div>	
-									<div class="col-md-6 test-grid">
-							   		<div class="test-grid1">
-										<img src="images/ta1.jpg" alt="" class="img-r">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-										Lorem ipsum dolor.</p>
-										<h4>Bryan</h4>
-										<span>Manager</span>
-									</div>	
-								</div>	
-								<div class="clearfix"></div>
-							</div>
-							<div class="agile">
-							   	<div class="col-md-6 test-grid">
-							   		<div class="test-grid1">
-										<img src="images/ta2.jpg" alt="" class="img-r">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-										Lorem ipsum dolor.</p>
-										<h4>Andery</h4>
-										<span>Ceo</span>
-									</div>	
-								</div>	
-									<div class="col-md-6 test-grid">
-							   		<div class="test-grid1">
-										<img src="images/ta3.jpg" alt="" class="img-r">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-										Lorem ipsum dolor .</p>
-										<h4>Bryan</h4>
-										<span>Manager</span>
-									</div>	
-								</div>	
-								<div class="clearfix"></div>
-							</div>
-							<div class="agile">
-							   	<div class="col-md-6 test-grid">
-							   		<div class="test-grid1">
-										<img src="images/ta.jpg" alt="" class="img-r">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-										Lorem ipsum dolor .</p>
-										<h4>Andery</h4>
-										<span>Ceo</span>
-									</div>	
-								</div>	
-									<div class="col-md-6 test-grid">
-							   		<div class="test-grid1">
-										<img src="images/ta1.jpg" alt="" class="img-r">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-										Lorem ipsum dolor .</p>
-										<h4>Bryan</h4>
-										<span>Manager</span>
-									</div>	
-								</div>	
-								<div class="clearfix"></div>
-							</div>					
-					</div>
-				</div>	
-		</div>
-	</div>
-</div>
-<!--contact-->		
-<div class="contact" id="contact">
-	<div class="container">
-		<div class="about-w3l w3agile w3">
-			<h3>Contact</h3>
-			<div class="about-t wthree">
-				<b></b>
-				<b class="line"></b>
-			</div>
-			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-		</div>				
-		<div class=" top-contact">
-			<form action="#" method="post">
-				<div class=" grid-contact">
-					<div class="col-md-6 grid-contact1">
-						<input type="text" placeholder="Name" name="Name"  required >								
-					</div>
-					<div class="col-md-6 grid-contact1">
-						<input type="text" placeholder="E-mail" name="E-mail" required>								
-					</div>
-					<div class="clearfix"></div>
-					<textarea  placeholder=" Message" name="Message"  required></textarea>
-					<input type="submit" value="Send">
-				</div>
-			</form>
+		<div class="col-md-4 bottom-grid multi-gd-text">
+			<a href="gallery.html"><img src="images/pic7.jpg" alt=" "/></a>
 		</div>
 		<div class="clearfix"></div>
 	</div>
-</div>			
-<div class=" map">
-	<iframe src=""></iframe>
-</div>
-<!--footer-->
-<div class="footer">
-	<ul class="social">
-		<li><a href="#"><i> </i></a></li>						
-		<li><a href="#"><i class="ic"> </i></a></li>
-		<li><a href="#"><i class="ic1"> </i></a></li>
-		<li><a href="#"><i class="ic2"> </i></a></li>
-		<li><a href="#"><i class="ic3"> </i></a></li>
-	</ul>
-	<div class="footer-b">
-		<ul class="footer-nav">
-			<li ><a href="index.html" class="scroll active" >Home</a> </li>
-			<li ><a href="#about" class="scroll" >About</a> </li>
-			<li ><a href="#team" class="scroll" >Team</a> </li>
-			<li ><a href="#services" class="scroll" >Services</a> </li>
-			<li><a href="#gallery" class="scroll">Gallery</a></li>
-			<li><a href="#clients" class="scroll" >Clients </a></li>
-			<li><a href="#contact" class="scroll" >Contact</a></li>
-		</ul>
-		<a href="#header" class="scroll bottom"><i></i></a>
-	</div>
-	<div class="copy">
-		<p class="footer-grid" >Copyright &copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-	</div>
-</div>
-<!-- for bootstrap working -->
-	<script src="js/bootstrap.min.js"></script>
-<!-- //for bootstrap working -->
+</div> -->
+<!-- //banner-bottom -->
+<!-- services -->
+<div class="main_ser">
+	<div class="container">
+		<div class="col-md-7 main_ser_one wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+			<h3>公司简介</h3>
+			<p> 主要销售工字钢、槽钢、H型钢、方通、扁通、镀锌板、镀锌钢管、焊接钢管、排栅钢管、镀锌角钢、冷轧板、热轧板、螺纹钢及各类五金配件。生产加工C型钢、彩钢瓦加泡沫，夹心瓦，镀锌瓦，树脂瓦，楼承板，剪板，折弯，冲压，异型钢等。</p>
+			<p>我司货源充足，品种齐全，价格实惠，热忱欢迎各界朋友及新老顾客来电咨询，光临惠顾。 </p>
+			<!-- <div class="cont-grids">
+				<div class="col-sm-6 cont-grid-one">
+					<div class="cont-grid-left wel-grid">
+						<div class="btm-clr4">
+							<figure class="icon">
+								<img src="images/icon1.png" alt=" " />
+							</figure>
+						</div>
+					</div>
+					<div class="cont-grid-right">
+						<h4>Voluptatem</h4>
+						<p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-sm-6 cont-grid-one">
+					<div class="cont-grid-left wel-grid">
+						<div class="btm-clr4">
+							<figure class="icon">
+								<img src="images/icon2.png" alt=" " />
+							</figure>
+						</div>
+					</div>
+					<div class="cont-grid-right">
+						<h4>Voluptatem</h4>
+						<p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-sm-6 cont-grid-one yes_magr">
+					<div class="cont-grid-left wel-grid">
+						<div class="btm-clr4">
+							<figure class="icon">
+								<img src="images/icon3.png" alt=" " />
+							</figure>
+						</div>
+					</div>
+					<div class="cont-grid-right">
+						<h4>Voluptatem</h4>
+						<p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-sm-6 cont-grid-one yes_magr">
+					<div class="cont-grid-left wel-grid">
+						<div class="btm-clr4">
+							<figure class="icon">
+								<img src="images/icon1.png" alt=" " />
+							</figure>
+						</div>
+					</div>
+					<div class="cont-grid-right">
+						<h4>Voluptatem</h4>
+						<p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div> -->
+		</div>
+		<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+		<div class="col-md-5 main_ser_two wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+			<img class="img-responsive" src="images/封面.jpg" alt=" "/>
+			<!-- <h4>Consequuntur Voluptatem</h4>
+				<div class="accordion">
+							<div class="accordion-section">
+								<a class="accordion-section-title" href="#accordion-1">Voluptatem Accusantium <i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a>
+								<div id="accordion-1" class="accordion-section-content">
+									<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices.</p>
+								</div>
+							</div>
 
+							<div class="accordion-section">
+								<a class="accordion-section-title" href="#accordion-2">Interdum Fringilla<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a>
+								<div id="accordion-2" class="accordion-section-content">
+									<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices.</p>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<a class="accordion-section-title" href="#accordion-3">Curabitur Vitae <i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a>
+								<div id="accordion-3" class="accordion-section-content">
+									<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices.</p>
+								</div>
+							</div>
+							
+							
+				</div> -->
+				<script>
+							jQuery(document).ready(function() {
+								function close_accordion_section() {
+									jQuery('.accordion .accordion-section-title').removeClass('active');
+									jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+								}
+
+								jQuery('.accordion-section-title').click(function(e) {
+									// Grab current anchor value
+									var currentAttrValue = jQuery(this).attr('href');
+
+									if(jQuery(e.target).is('.active')) {
+										close_accordion_section();
+									}else {
+										close_accordion_section();
+
+										// Add active class to section title
+										jQuery(this).addClass('active');
+										// Open up the hidden content panel
+										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+									}
+
+									e.preventDefault();
+								});
+							});
+				</script>
+
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //services -->
+<!-- treatments -->
+<div class="treatments">
+	<h3>我们的优势</h3>
+	<p class="para1"> </p>
+	<div class="col-md-4 treat-grids treat-pad wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+	<h5>三十年老字号</h5>
+		<p>1988年成立于广东省惠州市惠阳区, 至今已经营逾30年, 是 当地最大的钢材销售企业之一, 深受广大顾客朋友的信赖与支持</p>
+	</div>
+	<div class="col-md-4 treat-grids grid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">	
+		<figure class="effect-apollo">
+			<img src="images/加工.jpg" alt=" "/>
+				<figcaption>
+					<p>Test Engineers</p>
+				</figcaption>			
+		</figure>
+	</div>
+	<div class="col-md-4 treat-grids treat-pad wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+		<h5>全省配送上门</h5>
+			<p>公司配有专业运输团队, 全广东省范围内皆可配送上门, 订单数额较大时可免费配送, 详询客服热线0752-3353466</p>			
+	</div>
+	<div class="col-md-4 treat-grids grid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">	
+		<figure class="effect-apollo">
+			<img src="images/老字号.jpg" alt=" "/>
+				<figcaption>
+					<p>Test Engineers</p>
+				</figcaption>			
+		</figure>
+	</div>
+	<div class="col-md-4 treat-grids treat-head treat_mar wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+		<h4>定制化产品加工</h4>
+		<p></p>
+				
+		<p>螺纹加工, 钢材切割等各类材料配套加工一应俱全, 仅收取工本费, 价格实惠</p>
+	</div>
+	<div class="col-md-4 treat-grids grid treat_mar wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+		<figure class="effect-apollo">
+			<img src="images/配送.jpg" alt=" "/>
+				<figcaption>
+					<p>Test Engineers</p>
+				</figcaption>			
+		</figure>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- //treatments -->
+
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<h2>联系我们</h2>
+		<p class="para"> </p>
+		<div class="col-md-6 footer-left wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+			<div class="col-sm-2 foo-left text-center">
+				<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+			</div>
+			<div class="col-sm-10 foo-right">
+				<h4>地址</h4>
+				<p>广东省惠州市惠阳区北环路去秋长镇政府路口交汇处</p>
+				<!-- <ul class="fb_icons">
+					<li><a class="fb" href="#"></a></li>
+					<li><a class="twit" href="#"></a></li>
+					<li><a class="goog" href="#"></a></li>
+					<li><a class="pin" href="#"></a></li>
+					<li><a class="drib" href="#"></a></li>
+				</ul> -->
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-6 footer-right wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+			<div class="col-sm-2 foo-left text-center">
+				<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+			</div>
+			<div class="col-sm-10 foo-right">
+				<h4>联系电话</h4>
+				<p>营业部: 0752-3353466</p>
+				<p>彭经理: 13392558377</p>
+				<!-- <form action="#" method="post">
+					<input type="text" name="Your email" value="Your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your email';}" required="">
+					<input type="submit" value="Subscribe">
+				</form> -->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<p class="copy-right">Copyright &copy; 2018 惠州市铁兄弟实业有限公司 All rights reserved</p>
+	</div>
+</div>
+<!-- //footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 </body>
 </html>
